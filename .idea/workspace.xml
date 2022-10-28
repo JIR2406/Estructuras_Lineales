@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c58579ec-fad6-4a1b-9d41-c52103f1a390" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstructurasNoLineales.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colas/Cola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pilas/Pila.java" afterDir="false" />
-    </list>
+    <list default="true" id="c58579ec-fad6-4a1b-9d41-c52103f1a390" name="Changes" comment="Unidad 3 EstructudaDeDatos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,8 +63,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666994210876</updated>
-      <workItem from="1666994212251" duration="3100000" />
+      <workItem from="1666994212251" duration="3402000" />
     </task>
+    <task id="LOCAL-00001" summary="Unidad 3 EstructudaDeDatos">
+      <created>1666997637751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666997637751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Unidad 3 EstructudaDeDatos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unidad 3 EstructudaDeDatos" />
   </component>
 </project>
