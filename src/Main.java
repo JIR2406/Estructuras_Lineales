@@ -17,6 +17,24 @@ public class Main {
             j++;
         };
     }
+    public static void eliminarElemento(Pila a,String dato, int t){
+        Object c;
+        Object b[]= new Object[t-1];
+        int aux=0;
+        int i=0;
+        while(!a.empty()){
+            c=a.pop();
+            if (!c.equals(dato)){
+                b[i]=c;
+                i++;
+            }else{
+                aux++;
+            }
+        }
+        for (int j=0;j<b.length;j++){
+            a.push((String)b[j]);
+        }
+    }
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Pila p;
@@ -47,6 +65,7 @@ public class Main {
                                     "2- Eliminar elemento\n" +
                                     "3- Desplegar pila\n" +
                                     "4- Invertir elementos\n" +
+                                    "5- Eliminar elemento\n" +
                                     "6- Salir");
                             op3 = s.nextLine().charAt(0);
                             switch (op3){
@@ -65,6 +84,11 @@ public class Main {
                                     break;
                                 case '4':
                                     invertirPila(p,t);
+                                    break;
+                                case '5':
+                                    System.out.println("Ingresa el dato a eliminar:\t");
+                                    dato=s.nextLine();
+                                    eliminarElemento(p,dato,t);
                                     break;
                             }
                         } while (op3!='6');
