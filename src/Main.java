@@ -3,7 +3,20 @@ import java.util.Scanner;
 import Pilas.Pila;
 
 public class Main {
-
+    public static void invertirPila(Pila a, int t){
+        Object b[]= new Object[t];
+        int i=0,j=0;
+        System.out.println("==Orden original==");
+        while(!a.empty()){
+            b[i]=a.pop();
+            System.out.println(b[i]);
+            i++;
+        }
+        while(!a.full()) {
+            a.push((String) b[j]);
+            j++;
+        };
+    }
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Pila p;
@@ -33,6 +46,7 @@ public class Main {
                                     "1- Añadir elemento\n" +
                                     "2- Eliminar elemento\n" +
                                     "3- Desplegar pila\n" +
+                                    "4- Invertir elementos\n" +
                                     "6- Salir");
                             op3 = s.nextLine().charAt(0);
                             switch (op3){
@@ -49,6 +63,9 @@ public class Main {
                                         System.out.println(p.pop());
                                     }
                                     break;
+                                case '4':
+                                    invertirPila(p,t);
+                                    break;
                             }
                         } while (op3!='6');
                         break;
@@ -58,4 +75,5 @@ public class Main {
             case '3':
         }
     }
+
 }

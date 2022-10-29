@@ -15,7 +15,6 @@ public class Pila {
         } else {
             pila[tope] = (Object) dato;
             tope++;
-            System.out.println("Dato agregado");
         }
     }
 
